@@ -1,0 +1,59 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.site {
+    padding: 2.5em 2.5em;
+}
+
+hr {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+ul li li {
+    list-style-type: disc;
+}
+
+ul li li li {
+    list-style-type: circle;
+}
+
+ol li {
+    list-style-type: 1;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+th {
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    background: rgb(156, 156, 156);
+}
+
+table td {
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+}
+
+table tbody tr:nth-child(odd) td {
+    background: rgb(241, 241, 241);
+}
+
+tr:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}

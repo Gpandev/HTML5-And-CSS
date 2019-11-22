@@ -1,0 +1,28 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+html {
+    font: 14px/1.5 Verdana, sans-serif;
+}
+
+p {
+    margin: 2em;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 0.2em;
+}
+
+.first {
+    background-color: #090;
+    color: #fff;
+}
+
+.second {
+    background-color: rgb(255, 199, 44);
+    color: #fff;
+}
+
+i {
+    padding-right: 0.3em;
+}

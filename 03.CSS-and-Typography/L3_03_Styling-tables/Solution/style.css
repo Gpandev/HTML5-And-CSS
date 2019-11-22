@@ -1,0 +1,27 @@
+body {
+    padding: 50px 100px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    background: rgb(156, 156, 156);
+}
+
+table td {
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+}
+
+table tbody tr:nth-child(odd) td {
+    background: rgb(241, 241, 241);
+}
+
+tr:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
